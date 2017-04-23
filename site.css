@@ -1,0 +1,590 @@
+ 
+ html, body {
+	height: 100%;
+	width:87%;
+	margin-left:6.5%;
+	background:url(./img/background.jpg);
+}
+
+ .header{
+	margin-top:0px;
+	height: 350px;
+	width: 1038px;
+ }  
+ 
+ #background { position: center; top: 0; width: 85.7%; height: 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: 100%; opacity: 0.8;filter:alpha(opacity=80);
+}
+ 
+ .container {
+	width:1048px;
+	height:auto;
+	padding:5px;
+	border:1px none #cccccc;
+	border-radius:10px;
+	background:#ffffff;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0%;
+	margin-left: auto;
+	  }
+	
+	.header table {
+	text-align: left;
+}  
+	  
+	  .path li:hover {text-decoration:underline;text-align: left;font-family: Arial, sans-serif;margin-top: -1px;}
+.path li:after { content:"|"; /* Or go Facebook style and use "·" (the interpunct character) for separators */ color:#666; /* You may want to make the separators a bit more subtle than the base text color */
+}
+.path li:last-child:after { content:""; /* No separator for the last item in the list */ }
+.path li a {/*margin:0 px 0 3px;/* Set margins around the links */color:blue; /* Text colors for the links */}
+.path li {float:left;text-align:left;/*border: 1px none #c3c3c3;*/list-style:none;cursor:pointer;margin-top: -1%;font-family: Arial, sans-serif;font-size: 82%;}
+.path ul{
+	color: #00C;
+	text-decoration: underline;
+}
+.path {
+	margin-right:0%;
+	height: 25px;
+	margin-left: 0%;
+	cursor: pointer;
+	width: 70%;
+}
+	  
+	  .faqs li:hover {text-decoration:underline;text-align: right;font-family: Arial, sans-serif;margin-top: -1px;}
+.faqs li:after { content:"|"; /* Or go Facebook style and use "·" (the interpunct character) for separators */ color:#666; /* You may want to make the separators a bit more subtle than the base text color */padding-left:10px;}
+.faqs li:last-child:after { content:""; /* No separator for the last item in the list */ }
+.faqs li a { /*margin:0 px 0 3px;/* Set margins around the links */ color:black; /* Text colors for the links */}
+.faqs li {float:left;text-align:center;/*border: 1px none #c3c3c3;*/list-style:none;cursor:pointer;margin-top: -1%;font-family: Arial, sans-serif;font-size: 82%;}
+.faqs ul{margin-left:0%;margin-right: 0%;margin-top: -1%;width: 150px;}
+.faqs{margin-right:0%;width: 160px;height: 25px;margin-left: 0%;}
+	  
+	  
+	  
+	  #search {
+	margin-left:33.5%;
+	margin-top:-25%;
+	height: 30px;
+	width: 60%;
+	margin-right: 0%;
+	}
+
+
+#search input[type="text"] {
+	border: 0 none;
+	font: bold 12px Arial,Helvetica,Sans-serif;
+	color: #d7d7d7;
+	width:55p
+%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 35px;
+	background-color: #000;
+	background-image: url(img/search-white.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	width: 80%;
+	margin-left: 10%;
+    }
+
+#search input[type="text"]:focus {
+	background: url(img/search-dark.png) no-repeat 10px 15px #fcfcfc; /* to xrwma tou fontou tis anazitisis otan grafeis */
+	color: #333; /* xrwma kersora kai grammatwn*/
+	width: 85%;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	}
+	
+	
+#book_search {
+	margin-left:33.5%;
+	margin-top:0%;
+	height: 30px;
+	width: 20%;
+	margin-right: 0%;
+	}
+
+
+#book_search input[type="text"] {
+	border: 0 none;
+	font: bold 12px Arial,Helvetica,Sans-serif;
+	color: #d7d7d7;
+	width:55p
+%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 35px;
+	background-color: #000;
+	background-image: url(img/search-white.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	width: 150px;
+	margin-left: 14%;
+    }
+
+#book_search input[type="text"]:focus {
+	background: url(img/search-dark.png) no-repeat 10px 15px #fcfcfc; /* to xrwma tou fontou tis anazitisis otan grafeis */
+	color: #333; /* xrwma kersora kai grammatwn*/
+	width: 150px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	}
+	
+	
+	
+	
+form{
+}
+
+#reg_form{
+	width:60%;
+	height: 30%;
+	margin-left: 0%;
+}
+
+#sub_form{
+	width:30%;
+	height: 90%;
+	margin-left: 30%;
+}
+
+#search_form{
+	height: 400px;
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #CFF;
+	border-radius:5px;
+	margin-left: 3%;
+	margin-top: -12%;
+}
+
+#list_of_books_form{
+	height: 60%;
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #CFF;
+	border-radius:5px;
+	margin-left: 3%;
+	margin-top: -90px;
+}
+
+#profile_edit_form{
+	color: #FFF;
+
+
+}
+
+
+
+.search {padding:6px 15px 6px 30px;float:right;margin-top:-45%;margin-right:-20%;}
+
+
+#regbt{
+	background:#09F;
+	height:30px;
+	border-radius:32px;
+	width:100px;
+	color:white;
+	font: 90% Arial, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+ .clear {
+	       clear: both;
+    }
+
+#logo{
+	float:left;
+	clear:left;
+} 
+
+#site_logo{
+	float:left;
+	clear:left;
+	margin-top: -15%;
+} 
+ 
+ 
+#title{
+	float:left;
+	margin-left:10%;
+	float:left;
+	clear:left;
+	width:70%;
+} 
+ 
+#menu{
+	margin-left:13%;
+	width:90%;
+}
+
+#menu li {
+	float:left;
+	width:24%;
+	height:45px;
+	text-align:center;
+	border: 1px solid #c3c3c3;
+	list-style:none;
+	cursor:pointer;
+	color:white;
+	-moz-border-radius: 15px;
+	border-radius: 5px;/*stroggyleuei tis akres tou menu */
+	margin-top: -35px;
+	display:inline;
+	text-align:center;
+	line-height:45px;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	background-color: #000;
+}
+#menu li:hover {
+	background-color: #09F;
+}
+
+
+#services_menu{
+	width:100%;
+	height: 300px;
+	margin-left: -5%;
+	margin-top: -200px;
+}
+
+#services_menu li {
+	float:left;
+	width:160px;
+	height:30px;
+	text-align:center;
+	border: 1px solid #c3c3c3;
+	cursor:pointer;
+	color:white;
+	-moz-border-radius:15px;
+	border-radius:5px;
+	display:inline;
+	text-align:center;
+	line-height:25px;
+	font-family: Arial, sans-serif;
+	font-size: 75%;
+	background-color: #000;
+	margin-top: 0px;
+	margin-left: -15%;
+}
+
+li#highlited {
+   background-color: #09F;
+}
+
+#services_menu li:hover {
+	background-color: #09F;
+}
+
+
+.slideshow
+{
+	margin-left: 14%;
+	cursor: pointer;
+}
+
+.images
+{
+    position: relative;
+}
+.images img
+{
+    display: none;
+    position: absolute;
+}
+
+
+#minima{float:right;margin-right:4%;margin-top:-20%;width:76%;font: 90% Arial, sans-serif;text-align:justify;}
+
+
+
+input[type=text]{
+	color:#000;
+}
+
+
+#sideButtons{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	text-align: center;
+	width: 170px;
+	background-color: #000;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #333;
+	border-radius:5px;
+}
+#log_in_sideButtons{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	width: 170px;
+	background-color: #000;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #333;
+	border-radius:5px;
+	text-align: center;
+	margin-top: -250%;
+}
+
+
+
+#text{padding-left:0%;margin-top:-8%;color:#000;line-height:120%;font-family: Arial, sans-serif;font-size: 130%;margin-right: 0%;}
+
+
+.announce{
+	margin-top:0%;
+	float:left;
+	margin-left:8%;
+	width:500px;
+	height:270px;
+}
+.announce ul{list-style-type:none;width:100%;border: 1px solid #c3c3c3;border-radius:5px;float:center;margin-top:0%;height: 100%;}
+.announce li{display:block;width:90%;cursor:pointer;text-align:left;height:30px;font-family: Arial, sans-serif;font-size: 80%; }
+.callendar{
+	float:left;
+	width:210px;
+	height:164px;
+	margin-top: 100%;
+}
+ 
+
+label, input{
+	
+}
+label {
+
+}
+
+#eggrafh-syndeshlb{
+	text-align: left;
+	width: 180px;
+	padding-right: 1%;
+	display: block;/* width: 150px; */
+	float: left;
+	margin-bottom: 5%;
+	margin-left: 0%;
+}
+
+#button{
+	width:170px;
+	color:#333;
+	font-weight:bold;
+	cursor:pointer;
+	position: relative;
+	height: 78px;
+	text-align: center;
+}
+
+
+.footer{}
+.footer ul{margin-left: 50%;}
+.footer li {float:left;height:15px;text-align:left;/*border: 1px none #c3c3c3;*/list-style:none;cursor:pointer;font-family: Arial, sans-serif;font-size: 70%;width: 105px;}
+.footer li:hover {text-decoration:underline;}
+.footer li:after {content:"|"; /* Or go Facebook style and use "·" (the interpunct character) for separators */ color:#666; /* You may want to make the separators a bit more subtle than the base text color */padding-left:10px;}
+.footer li:last-child:after { content:""; /* No separator for the last item in the list */ }
+.footer li a {/*margin:0 px 0 30px;/* Set margins around the links */color:black;}
+.footer_sm{width: 200px;}
+
+
+.social_networks {list-style:none;margin-left: 40%;}
+.social_networks li {display:inline;float:left;}
+.social_networks li a {display:block;width:33px;height:33px;position:relative;}
+.social_networks li a strong {position:absolute;left:32px;top:-2px;text-shadow:white;background-color:white;border-radius:3px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+ 
+li.facebook {background-image:url("img/fb.jpg");background-repeat: no-repeat;position:relative;left:0%;}
+li.twitter {background-image:url("img/twit.jpg");background-repeat: no-repeat;height:32px;position:relative;left:10%;}
+li.google_plus {background-image:url("img/g+.jpg");background-repeat: no-repeat;height:32px;position:relative;left: 20%;}
+
+#css3:hover li { opacity:0.2; }
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms; -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;-webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;-moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-10px; }
+
+
+.construction{
+	margin-left: 22%;
+}
+
+.message{
+	margin-left: 30%;
+}
+
+.fail_log_img{
+	margin-left: 36%;
+}
+
+.fail_log_message{
+	margin-left: 26%;
+}
+
+#login {
+	float:left;
+	width: 60%;
+	margin-top: -104%;
+	margin-left: 30%;
+}
+#loginbt{
+	background:#09F;
+	height:30px;
+	border-radius:32px;
+	width:100px;
+	color:white;
+	font: 90% Arial, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#submit_fp{
+	background:#09F;
+	height:30px;
+	border-radius:32px;
+	width:110px;
+	color:white;
+	font: 90% Arial, sans-serif;
+	font-weight:bold;
+	margin-left:10%;
+	cursor:pointer;
+}
+
+#register {
+	float:right;
+	width:100%;
+	margin-top:1%;
+}
+
+
+#services_form{
+	height: 500px;
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #CFF;
+	border-radius:5px;
+	margin-left: 3%;
+	margin-top: -15%;
+	}
+	
+#instructions_form{
+	height: 850px;
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #CFF;
+	border-radius:5px;
+	margin-left: 3%;
+	margin-top: -5%;
+}
+
+#inform_table{
+	margin-top: -1%;
+}
+	
+#profile_edit{
+	
+	
+}
+
+
+#profile_edit li{
+	box-shadow: 10px 10px 5px #0cf;
+	float:left;
+	width:150px;
+	height:20px;
+	text-align:center;
+	border: 1px solid #c3c3c3;
+	list-style:none;
+	cursor:pointer;
+	color:white;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	display:inline;
+	text-align:center;
+	line-height:20px;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	background-color: #000;
+	margin-left: 40%;
+}
+
+#profile_edit li:hover {
+	background-color: #09F;
+}
+
+#editbt{
+	box-shadow: 10px 10px 5px #0cf;
+	float:left;
+	width:150px;
+	height:25px;
+	text-align:center;
+	border: 1px solid #c3c3c3;
+	list-style:none;
+	cursor:pointer;
+	color:white;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	display:inline;
+	text-align:top;
+	line-height:20px;
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	background-color: #000;
+	margin-left: 40%;
+}
+
+#editbt:hover {
+	background-color: #09F;
+}
+
+
+
+#searchbt{
+	margin-top: 5%;
+	margin-left: 44%;
+	float:left;
+	font-size:5px
+	text-align:center;
+	border: 1px solid #c3c3c3;
+	list-style:none;
+	cursor:pointer;
+	color:white;
+	-moz-border-radius: 15px;
+	border-radius: 5px;/*stroggyleuei tis akres tou menu */
+	display:inline;
+	font-family: Arial, sans-serif;
+	font-size: 85%;
+	background-color: #000;
+	}
+#searchbt:hover {
+	background-color: #09F;
+}
+
+#isbnlb{
+}
+#titlelb{
+}
+#departmentlb{
+}
